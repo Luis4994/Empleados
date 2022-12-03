@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "93836035599",
+    "project_id": "empleados-848ad",
+    "storage_bucket": "empleados-848ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93836035599:android:963d361d2e33171472857a",
+        "android_client_info": {
+          "package_name": "com.example.empleados"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93836035599-epcbklhtees89j71367psad632mnk4vu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo9-wSsb2dkmYyfyQxHDjct-8bb0X8PzI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93836035599-epcbklhtees89j71367psad632mnk4vu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

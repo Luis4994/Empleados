@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Nombre"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Nombre"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="#454543"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/RUT"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="RUT"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="#454543"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Cargo"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Cargo"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="#454543"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Antiguedad"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Antiguedad"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="#454543"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/btn_eliminar"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#FD0505"
+            android:foregroundGravity="center_vertical"
+            android:padding="5dp"
+            app:srcCompat="@drawable/ic_delete" />
+
+        <ImageView
+            android:id="@+id/btn_inscribir"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="#0188FF"
+            app:srcCompat="@drawable/ic_baseline_edit_24" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

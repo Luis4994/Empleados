@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainEditarEmpleado">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="Nombre"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/rut"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="RUT"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/cargo"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="Cargo"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/antiguedad"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="Antiguedad"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btn_inscribir"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Editar" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
